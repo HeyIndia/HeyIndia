@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/relback"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/login_background"
@@ -37,7 +36,7 @@
                     android:layout_marginTop="16dp">
 
                     <EditText
-                        android:id="@+id/loginEmailFiend"
+                        android:id="@+id/loginEmailField"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
@@ -63,12 +62,12 @@
                 </android.support.design.widget.TextInputLayout>
 
                 <Button
-                    android:id="@+id/loginbtn"
+                    android:id="@+id/loginBtnSubmit"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/login_btn_back"
-                    android:text="Log in"
+                    android:text="@string/log_in"
                     android:layout_marginTop="16dp"
                     android:textAllCaps="false"
                     android:textColor="#fff"
@@ -80,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:fontFamily="serif-monospace"
-                    android:text="Don't have account? Sign Up"
+                    android:text="@string/don_t_have_account_sign_up"
                     android:textAlignment="center"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -90,7 +89,7 @@
         </RelativeLayout>
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/user_profile_photo"
+            android:id="@+id/loginHeyIndiaLogo"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_centerHorizontal="true"
@@ -100,6 +99,7 @@
             android:src="@drawable/india_gate" />
 
         <Button
+            android:id="@+id/loginBtnAadhaar"
             android:layout_below="@+id/login_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
