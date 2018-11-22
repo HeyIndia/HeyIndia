@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">HeyIndia</string>
     <string name="heyindia">Hey India</string>
+    <string name="sign_up_here">Don\'t have account? Sign Up</string>
+    <string name="heyindia_logo">HeyIndia Logo</string>
+    <string name="log_in_with_aadhaar">Log In with Aadhaar</string>
 </resources>
