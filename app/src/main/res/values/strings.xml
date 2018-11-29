@@ -18,4 +18,5 @@
     <string name="communicate">Communicate</string>
     <string name="share">Share</string>
     <string name="feedback">Write Us</string>
+    <string name="logout">Log Out</string>
 </resources>

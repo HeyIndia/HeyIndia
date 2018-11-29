@@ -72,6 +72,9 @@ public class HomeActivity extends AppCompatActivity
             case R.id.nav_feedback:
                 Toast.makeText(this, "Write Us Now", Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.nav_logout:
+                Toast.makeText(this, "Loged Out", Toast.LENGTH_SHORT).show();
+                break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

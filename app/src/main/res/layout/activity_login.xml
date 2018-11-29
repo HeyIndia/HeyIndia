@@ -88,15 +88,14 @@
 
         </RelativeLayout>
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/loginHeyIndiaLogo"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
-            android:elevation="6dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/india_gate" />
+            android:scaleType="fitXY"
+            android:src="@drawable/nav_header_icon" />
 
         <Button
             android:id="@+id/loginBtnAadhaar"

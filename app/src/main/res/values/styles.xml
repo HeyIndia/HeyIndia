@@ -19,4 +19,39 @@
 
     <style name="HeyIndiaCustomTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!--Content home card style -->
+    <style name="contentHomeCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Content home card child Linear layout style -->
+    <style name="contentHomeCardLinearStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <!-- Content home card child Image View Style -->
+    <style name="contentHomeCardImageStyle">
+        <item name="android:layout_height">95dp</item>
+        <item name="android:layout_width">95dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Content home card child text view style -->
+    <style name="contentHomeCardTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>
