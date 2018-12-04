@@ -5,3 +5,6 @@
 
 # HeyIndia : Official Android Application
 ----------
+
+## Get the APK at location 
+https://github.com/HeyIndia/HeyIndia/tree/master/app/release
